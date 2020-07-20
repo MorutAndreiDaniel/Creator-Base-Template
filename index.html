@@ -1,0 +1,237 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Creator Base Template</title>
+</head>
+<body>
+    <!--Splash-->
+    <div id="splash">
+        <img src="SVG/logo.svg" alt="logo" class="fade-in">
+    </div>
+    <!--Header-->
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top pt-4">
+                <div class="container col-md-6 col-sm-12 d-flex justify-content-center">
+                    <a class="navbar-brand p-4" href="index.html"><img src="SVG/logo.svg" class="img-fluid"></a>
+                </div>
+                <div class="container col-md-6 col-sm-12 d-flex justify-content-center">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto nav pr-3 p-4 font-weight-bolder">
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="customers.html">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about us.html">About us</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="plans.html">Plans</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary sign-up-button" onClick="location.href='sign up.html'">Sign Up</button>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-arrow-alt-circle-up"></i></button>
+
+    <!--Info and sign up section-->
+    <div class="container-fluid py-4 mb-4">
+        <div class="row pt-4">
+            <div class="col-lg-6 col-md-6 col-sm-12 image">
+                <img src="SVG/background-image.svg" class="img-fluid background-img">
+                <div class="wrap">
+                    <img src="SVG/front image.svg" class="img-fluid front-img" data-toggle="modal" data-target="#modal-image">
+                    <div class="modal" tabindex="-1" role="dialog" id="modal-image">
+                        <div class="modal-dialog" role="document">
+                          <div class="modal-content">
+                            <div class="modal-header">
+                              <h5 class="modal-title">Creator Base</h5>
+                              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                <span aria-hidden="true">&times;</span>
+                              </button>
+                            </div>
+                            <div class="modal-body">
+                                <img src="SVG/front image.svg" class="img-fluid py-2">
+                              <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis soluta nemo laudantium veritatis itaque modi illum accusantium necessitatibus sit? Tempora animi amet voluptas delectus..</p>
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
+                          </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6 col-sm-12 d-flex flex-column justify-content-center pl-3 first-text">
+                <h1 class="font-weight-bold">The influencer marketing cloud</h1>
+                <p class="text-justify font-weight-bolder">
+                    We are a an influencer marketing Software-as-a-Service platform.</br>
+                    Our technology allows brands and agencies to identify the most relevant content creators and social media influencers.
+                </p>
+                <button type="button" class="btn btn-primary sign-up-button" onClick="location.href='sign up.html'">Sign Up</button>
+            </div>
+        </div>
+    </div>
+
+    <!--Products section-->
+    <div class="container-fluid products">
+        <h1 class="font-weight-bold text-center">Products</h1>
+        <div class="row col-lg-12 col-md-12 pt-4 mt-4 d-flex flex-row">
+            <img src="SVG/app.svg" alt="app" class="image-app" onclick="location.href='products.html';">
+            <img src="SVG/app-1.svg" alt="app1" class="img-fluid image-app1" onclick="location.href='products.html';">
+            <img src="SVG/app-2.svg" alt="app2" class="image-app2" onclick="location.href='products.html';">
+        </div>
+    </div>
+
+    <!--About us-->
+    <div class="container-fluid mt-4">
+        <h1 class="font-weight-bold text-center pt-4">About us</h1>
+        <div class="container fluid pt-4 d-flex flex-column justify-content-center about-us">
+            <img src="SVG/Group 10913.png" alt="group" class="img-fluid">
+            <h3 class="font-weight-bolder">The influencer</br> marketing cloud</h3>
+            <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Atque ad aspernatur similique iure.</p>
+            <p class="lead">At vero eos et accusam et justo uoolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+            <button type="button" class="btn btn-outline-primary read-more-button" onclick="location.href='about us.html';">Read More</button>
+        </div>
+    </div>
+
+    <!--Plans-->
+    <div class="container-fluid my-4">
+        <h1 class="font-weight-bold text-center mt-4 pt-4">Plans</h1>
+        <!--Plan free-->
+        <div class="row d-flex justify-content-between pt-4">
+            <div class="container col-lg-3 col-md-4 col-sm-7 d-flex justify-content-between flex-column align-items-center plan1" data-toggle="modal" data-target="#plan-modal">
+                <h2 class="font-weight-bolder">Free</h3>
+                <img src="SVG/paper plane.svg" class="img-fluid">
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet.</li>
+                </ul>
+                <h3 class="font-weight-bolder mt-4 options">free</h3>
+            </div>
+            <div class="modal" tabindex="-1" role="dialog" id="plan-modal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Free Plan</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <img src="SVG/paper plane.svg" class="img-fluid">
+                      <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis soluta nemo laudantium veritatis itaque modi illum accusantium necessitatibus sit? Tempora animi amet voluptas delectus..</p>
+                      <button type="button" class="btn btn-outline-primary" onclick="location.href='plans.html';">Read More</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Professional plan-->
+            <div class="container col-lg-3 col-md-4 col-sm-7 d-flex justify-content-between flex-column align-items-center plan2" data-toggle="modal" data-target="#plan2-modal">
+                <h2 class="font-weight-bolder">Professional</h3>
+                <img src="SVG/rocket.svg" class="img-fluid">
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+                <h3 class="font-weight-bolder options"><sup>$</sup>25<sub>/mo.</sub></h3>
+            </div>
+            <div class="modal" tabindex="-1" role="dialog" id="plan2-modal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Professional Plan</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <img src="SVG/rocket.svg" class="img-fluid">
+                      <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis soluta nemo laudantium veritatis itaque modi illum accusantium necessitatibus sit? Tempora animi amet voluptas delectus..</p>
+                      <button type="button" class="btn btn-outline-primary" onclick="location.href='plans.html';">Read More</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+            <!--Standard Plan-->
+            <div class="container col-lg-3 col-md-4 col-sm-7 d-flex flex-column justify-content-between align-items-center plan3" data-toggle="modal" data-target="#plan3-modal">
+                <h2 class="font-weight-bolder">Standard</h3>
+                <img src="SVG/plane.svg" class="img-fluid">
+                <ul>
+                    <li>Lorem ipsum dolor sit, amet.</li>
+                    <li>Lorem ipsum dolor sit amet.</li>
+                </ul>
+                <h3 class="font-weight-bolder options"><sup>$</sup>10<sub>/mo.</sub></h3>
+            </div>
+            <div class="modal" tabindex="-1" role="dialog" id="plan3-modal">
+                <div class="modal-dialog" role="document">
+                  <div class="modal-content">
+                    <div class="modal-header">
+                      <h5 class="modal-title">Standard Plan</h5>
+                      <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                      </button>
+                    </div>
+                    <div class="modal-body d-flex flex-column align-items-center">
+                        <img src="SVG/plane.svg" class="img-fluid">
+                      <p class="lead text-justify p-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis soluta nemo laudantium veritatis itaque modi illum accusantium necessitatibus sit? Tempora animi amet voluptas delectus..</p>
+                      <button type="button" class="btn btn-outline-primary" onclick="location.href='plans.html';">Read More</button>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    </div>
+                  </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center copyright">
+                    <p class="lead pl-3">Morut Andrei-Daniel@2020</p>
+                </div>
+                <div class="container col-lg-6 col-md-12 col-sm-12 d-flex flex-row justify-content-between footer-menu">
+                    <ul class="navbar-nav d-flex flex-row font-weight-bolder">
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="customers.html">Customers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about us.html">About us</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="plans.html">Plans</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary sign-up-button" onClick="location.href='sign up.html'">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

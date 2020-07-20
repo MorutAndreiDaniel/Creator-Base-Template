@@ -1,0 +1,20 @@
+{
+  "name": "Creator Base Template",
+  "version": "1.0.0",
+  "description": "A template made with html, bootstrap and javascript",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Morut Andrei-Daniel",
+  "license": "ISC",
+  "devDependencies": {
+    "postcss-modules": "^3.2.0",
+    "postcss-uncss": "^0.17.0",
+    "uncss": "^0.17.3"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
+  }
+}

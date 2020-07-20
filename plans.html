@@ -1,0 +1,123 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="main.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.0/css/all.css" integrity="sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ" crossorigin="anonymous">
+    <title>Creator Base Template</title>
+</head>
+<body>
+    <!--Header-->
+    <header class="container-fluid">
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top pt-4">
+                <div class="container col-md-4 col-sm-12 d-flex justify-content-center">
+                    <a class="navbar-brand p-4" href="index.html"><img src="SVG/logo.svg" class="img-fluid"></a>
+                </div>
+                <div class="container col-md-8 col-sm-12 d-flex justify-content-center">
+                        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="collapse navbar-collapse text-center" id="navbarResponsive">
+                        <ul class="navbar-nav ml-auto nav pr-3 p-4 font-weight-bolder">
+                            <li class="nav-item">
+                                <a class="nav-link" href="products.html">Product</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="customers.html">Customers</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about us.html">About us</a>
+                            </li>
+                            <li class="nav-item active">
+                                <a class="nav-link" href="plans.html">Plans</a>
+                            </li>
+                        </ul>
+                        <button type="button" class="btn btn-primary sign-up-button" onclick="location.href='sign up.html'">Sign Up</button>
+                    </div>
+                </div>
+            </nav>
+    </header>
+    <button onclick="topFunction()" id="myBtn" title="Go to top"><i class="far fa-arrow-alt-circle-up"></i></button>
+
+    <!--Main Section-->
+    <div class="container w-50">
+        <h1 class="display-3 text-center font-weight-bold" id="h1-title">Plans</h1>
+        <div class="col-lg-12 d-flex justify-content-center image-plan" onClick="display()">
+            <img src="SVG/paper plane.svg" class="img-fluid">
+        </div>
+        <div class="container-fluid" id="plan_1">
+            <h3 class="text-center font-weight-bolder">
+                Free
+            </h3>
+            <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolorum!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+        </div>
+        <div class="col-lg-12 d-flex justify-content-center image-plan" onClick="display()">
+            <img src="SVG/rocket.svg" class="img-fluid">
+        </div>
+        <div class="container-fluid" id="plan_2">
+            <h3 class="text-center font-weight-bolder">
+                Professional
+            </h3>
+            <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolorum!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+        </div>
+        
+        <div class="col-lg-12 d-flex justify-content-center image-plan" onClick="display()">
+            <img src="SVG/plane.svg" class="img-fluid">
+        </div>
+        <div class="container-fluid" id="plan_3">
+            <h3 class="text-center font-weight-bolder">
+                Standard
+            </h3>
+            <ul>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit amet consectetur adipisicing elit. Distinctio, dolorum!</li>
+                <li>Lorem ipsum dolor sit amet, consectetur adipisicing.</li>
+                <li>Lorem ipsum dolor sit amet consectetur.</li>
+            </ul>
+        </div>
+    </div>
+    <!--Footer-->
+    <footer>
+        <div class="container-fluid mt-4">
+            <div class="row">
+                <div class="col-lg-6 col-md-12 col-sm-12 text-center copyright">
+                    <p class="lead pl-3">Morut Andrei-Daniel@2020</p>
+                </div>
+                <div class="container col-lg-6 col-md-12 col-sm-12 d-flex flex-row justify-content-between footer-menu">
+                    <ul class="navbar-nav d-flex flex-row font-weight-bolder">
+                        <li class="nav-item">
+                            <a class="nav-link" href="products.html">Product</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="customers.html">Customers</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="about us.html">About us</a>
+                        </li>
+                        <li class="nav-item active">
+                            <a class="nav-link" href="plans.html">Plans</a>
+                        </li>
+                    </ul>
+                    <button type="button" class="btn btn-primary sign-up-button" onclick="location.href='sign up.html'">Sign Up</button>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>
